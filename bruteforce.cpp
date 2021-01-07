@@ -11,7 +11,7 @@ int main()
     solution(a);
 }
 
-void solution(vector<int> arr)
+void solution(const vector<int> arr)
 {
     vector<int> answer(arr.size(), 1);
 
